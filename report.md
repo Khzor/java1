@@ -6,25 +6,10 @@
 
 На тестирование затрачено: 30 минут
 
-В результате тестирования выявлено, что номера карт платежных систем **American Express** и **Diners Club - International** не валидируются.
-Были созданы следующие Issues.
+В результате тестирования выявлено, что номера карт платежных систем с количеством символов меньше 16, например, таких платежных систем как **American Express** и **Diners Club - International** не валидируются.
+Был создан следующий баг-репорт:
 
-American Express:
-
-* [Issue #1](https://github.com/Khzor/java1/issues/1)
-* [Issue #2](https://github.com/Khzor/java1/issues/2)
-* [Issue #3](https://github.com/Khzor/java1/issues/3)
-* [Issue #4](https://github.com/Khzor/java1/issues/4)
-* [Issue #5](https://github.com/Khzor/java1/issues/5)
-
-Diners Club - International:
-
-* [Issue #6](https://github.com/Khzor/java1/issues/6)
-* [Issue #7](https://github.com/Khzor/java1/issues/7)
-* [Issue #8](https://github.com/Khzor/java1/issues/8)
-* [Issue #9](https://github.com/Khzor/java1/issues/9)
-* [Issue #10](https://github.com/Khzor/java1/issues/10)
-
+* [Не проходят валидацию номера карт с количеством цифр меньше 16](https://github.com/Khzor/java1/issues/1)
 
 ## Описание процесса тестирования
 
